@@ -6,7 +6,9 @@ const clearForm = () => {
 const clearImg = () => {
     document.getElementById("imageContent").value = '';
 }
-
+const clearResult = () =>{
+    document.getElementById("resultContent").value = '';
+}
 const concatvalue = () => {
     const form1 =  document.getElementById("textContent").value;
     const form2 =   document.getElementById("imageContent").value;
